@@ -8,6 +8,6 @@
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac />
-  <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise 2018.1.5.6835</WwiseInstallationPathWindows>
-  <WwiseProjectPath>../../../../../Wwise folder/Wwise projects/gamejam 2019/gamejam 2019.wproj</WwiseProjectPath>
+  <WwiseInstallationPathWindows>D:\AudioKinetic</WwiseInstallationPathWindows>
+  <WwiseProjectPath>../../../../Wwise projects/gamejam 2019/gamejam 2019.wproj</WwiseProjectPath>
 </WwiseSettings>

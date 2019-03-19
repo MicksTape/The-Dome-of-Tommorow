@@ -191,19 +191,19 @@ MonoBehaviour:
     List: []
   BankWwu:
   - Guid: '{CE386A55-D99B-4F86-8024-D794C54681DC}'
-    m_lastTimePart2: -1999197323
-    m_lastTimePsrt1: 1488702674
+    m_lastTimePart2: -1999197300
+    m_lastTimePsrt1: -2058153503
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
-    - Guid: 0b39190bb5698c40b9a13d570690e394
-      ID: 534561221
-      Name: MainSoundbank
-      Path: Default Work Unit\MainSoundbank
+    - Guid: da89b0ef3c42e54d8ed4b893eb1a58f9
+      ID: -867139983
+      Name: MusicSoundbank
+      Path: Default Work Unit\MusicSoundbank
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: MainSoundbank
+      - ElementName: MusicSoundbank
         ObjectType: 7
   EventWwu:
   - Guid: '{FC684B09-4077-4FAE-85E1-DEEF4D6F3E31}'
@@ -232,6 +232,8 @@ MonoBehaviour:
       minDuration: 0
   ExpandedItems:
   - /gamejam 2019
+  - /gamejam 2019/Events
+  - /gamejam 2019/Events/Music
   - /gamejam 2019/SoundBanks
   - /gamejam 2019/SoundBanks/Default Work Unit
   - /gamejam 2019/States
@@ -427,8 +429,8 @@ MonoBehaviour:
         ObjectType: 13
   StateWwu:
   - Guid: '{13D4D9EC-73A3-4B6A-9206-D2D23972B749}'
-    m_lastTimePart2: -1999197707
-    m_lastTimePsrt1: -1221886448
+    m_lastTimePart2: -1999197058
+    m_lastTimePsrt1: -73820312
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
     List:
@@ -443,19 +445,15 @@ MonoBehaviour:
         ObjectType: 9
       ValueGuids:
       - bytes: d396eebe486749449e04e15e840768bd
-      - bytes: f9c9c813cd88ac40947175bc9df03ecf
       - bytes: 17c5e78d1c7378428bd1130ae8dbae4d
       ValueIcons:
       - ElementName: InGame
         ObjectType: 8
-      - ElementName: InMenu
-        ObjectType: 8
       - ElementName: None
         ObjectType: 8
-      valueIDs: ba33b13a791624c9db3ba32c
+      valueIDs: ba33b13adb3ba32c
       values:
       - InGame
-      - InMenu
       - None
     - Guid: ada63878ce624b45ad6c0f267b9d9fb2
       ID: 1021618141
@@ -469,6 +467,7 @@ MonoBehaviour:
       ValueGuids:
       - bytes: 6fa756008e198c4a97f5d37fe8383699
       - bytes: ea1fc140c750774d9272ebafe9a1712b
+      - bytes: dcb0cf0f19a6e240a22b543fb944365d
       - bytes: 1d522caa715f3a408df6543feac63ef1
       - bytes: 999eaa525588104ca839006dfa2df41a
       ValueIcons:
@@ -476,14 +475,17 @@ MonoBehaviour:
         ObjectType: 8
       - ElementName: FreeRoam
         ObjectType: 8
+      - ElementName: Loading
+        ObjectType: 8
       - ElementName: None
         ObjectType: 8
       - ElementName: Raft
         ObjectType: 8
-      valueIDs: e90914bed8e28010db3ba32cd8d3cb72
+      valueIDs: e90914bed8e28010bbde05d5db3ba32cd8d3cb72
       values:
       - Fishing
       - FreeRoam
+      - Loading
       - None
       - Raft
   SwitchWwu:
